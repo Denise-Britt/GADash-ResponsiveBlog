@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      /* GA Dash img*/
+      background: url('http://dash.ga.co/assets/jeff-bg.png');
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white; 
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://scontent.fbed1-2.fna.fbcdn.net/v/t1.0-9/117971544_3454376151291433_2978721938246268910_n.jpg?_nc_cat=104&_nc_sid=09cbfe&_nc_ohc=ODMzY9WH7cQAX-8DiOq&_nc_oc=AQlzOiHCnf6kxa_nqQLNw7s7EoVcKn5MHG-48Lc4nevEYoQ7Gjb9CQy9mEoAh-aQ4qxfwstQx0PaSdYSyTNG4Z_I&_nc_ht=scontent.fbed1-2.fna&oh=38844431d8b2026f0fd7736c814e55da&oe=5F7102D0" alt="Denise"  width="160">
+    <h1>Denise</h1>
+    <ul>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">Contact Me</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Black Lives Matter</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Breonna Taylor: #SayHerName</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Why Learning How YOU Learn Best Is So Important</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
